@@ -12,8 +12,8 @@ Boilerplate for new create react app including personalized preferred practices 
 1. emotion for styling
 2. material ui
 3. axios
-4. react hook form
-5. react router dom
+4. react-hook-form
+5. react-router-dom
 
 # Preferred practices
 
@@ -28,7 +28,7 @@ import { css } from "@emotion/react";
 ```
 
 4. Animations to be applied using styled components.
-5. Refactor static variables/helper fns to constants.js as much as possible.
+5. Refactor static variables/helper fns to `constants.js` as much as possible.
 6. Important to note never to use `100vw` as width on any component.
 7. Horizontal scrolling should never appear on the app. Fix horizontal scrolling the moment it appears.
 8. Forms should always be a component on their own
