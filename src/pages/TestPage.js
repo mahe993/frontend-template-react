@@ -45,7 +45,7 @@ const TestPage = (props) => {
   return (
     // Try to use Box and flex properties to build layout
     // do all css inline using Box props. if not avail from Box props, use css prop
-    // use localhost:3000/test to try out css prop
+    // use localhost:3000/test to try out css prop as well as img object-fit: contain
     // we can also try to use kebab-case classname to identify Boxes, but never use classname as rule for css targetting.
     <Box
       className="outer-container"
@@ -88,6 +88,9 @@ const TestPage = (props) => {
         `}
       >
         Can also do custom CSS variables with css prop
+      </Box>
+      <Box className="image-container" width="100px">
+        <img src="https://picsum.photos/200/300" alt="picsum" width="100%" />
       </Box>
     </Box>
   );
